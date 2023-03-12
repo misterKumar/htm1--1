@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta  name ="description" description="hello people" content="grocery selling website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to HTML</title>
+    <link rel="stylesheet" href="../codes/new.css">
+</head>
+<body>
+    <!-- hi kumar! -->
+    <!-- 
+        <something> => tag
+
+            tagNames: are the reserved keywords
+            in html
+
+            145 keywords => HTML tagNames
+            
+            <tagName> => HTML tag
+            
+            <tagName> => opening tag
+
+            </tagName> => closing tag with forward slash
+        
+     -->
+    
+     <!-- Headings -->
+     <!-- h1,h2,h3,h4,h5,h6 -->
+     <h1>Head         1</h1>   
+     <!-- how space does not matter it will consider single space -->
+     <!-- to get more space use &nbsp; one &nbsp; indicates one single space-->
+     <!-- &lt; indicates less than , &gt: indicates greater than direct <  > angular braces make confusion -->
+     <h2>Head &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2</h2>
+     <h3>Head &lt;3&gt;</h3>
+     <h4>Head 4</h4>
+     <h5>Head 5</h5>
+     <h6>Head 6</h6>
+     
+
+     <!-- paragraphs type p and emit, lorem30 and emit(enter) can set default para with 30 words-->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ea voluptatibus veniam sint ad harum excepturi maiores dolore molestias. Quisquam porro odio enim. Omnis similique consequatur illum aliquam quo soluta.</p>
+
+        <!-- button and emit -->
+      <button>click Me</button>  
+      <!-- we can use anchor tag in button tag then it will navigate 
+    that is not a good option 
+
+        so go with button inside th anchor tag<a></a>
+-->
+
+      <!--anchor a in that reference provide any link to navigate 
+    here href is hyper reference -->
+
+    <!-- Hyper reference
+        Every HTml element can have properties
+        1.Mandatory properties. like href="link"
+        2.option properties (attributes) like target ="_self" and traget="_blank" open the page in new tab
+
+     -->
+      <a href="https://vimeo.com/806880287/458fd829f0?embedded=true&source=vimeo_logo&owner=182753595" target="_blank"><button>class link with button</button>classlink with anchor tag  </a>
+
+      <!-- link with another html page _self will show in same page _blank show in new tab-->
+
+      <a href="./index1.html" tabindex="_self">
+        <!-- by default target is _self like if you don't mention target it will loaded in same page -->
+        another html
+      </a>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="./index1.html" target="_blank">hello in bold</a> Dolore omnis placeat incidunt odit earum ex error obcaecati quam quisquam? Soluta nemo at quo ipsum natus laboriosam consectetur sequi suscipit ipsa?
+
+        click here to watch today class
+        <a href="https://vimeo.com/806880287/458fd829f0?embedded=true&source=vimeo_logo&owner=182753595" target="_blank"><button>watch me</button></a>
+      </p>
+
+
+      <!-- add image img emit
+        empty tag | self-closing tag => the element which does not have corresponding closing tag is self-closing tag |empty tag
+        source =image link
+        alt =souce category will be useful to read category by google assistant
+    -->
+    <!-- local image -->
+      <img src="../images/test.png" alt="local" width="400" height="300">
+      
+      <!-- this will show the access with parent folder FRONTEND 1 VS or we can use http://127.0.0.1:5500/images/test.png for local image  
+          .. indicates parent
+      -->
+
+      <!-- remote link image -->
+      <img src="https://www.cricbuzz.com/a/img/v1/420x235/i1/c261985/pujara-falls-after-gills-ton.jpg" alt="cricket">
+     
+    
+      <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis pariatur voluptatibus iste vero sed quae ea non expedita nulla, fuga libero, distinctio placeat. Optio eligendi odit placeat aut molestiae tenetur?
+
+
+
+          <!-- this pre will maintain the exact space you mentioned -->
+
+
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non fuga quae dolore impedit dolorem commodi, dolor assumenda? Quo, et quos reiciendis necessitatibus facilis fugiat repudiandae ab accusamus corporis dolorum nostrum porro in provident dolores quam rerum, officiis sint aspernatur illum!
+      </pre>
+     
+
+</body>
+</html>

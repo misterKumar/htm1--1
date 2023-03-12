@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page</title>
+</head>
+<body>
+    <!-- <h1>hello</h1>
+    <img src="../images/test.png" alt="" width="300" height="300"> -->
+    <!-- 
+        Header
+            nav bar
+            some other
+        Body of the web page
+            section 1
+            section 2
+            section 3
+        footer
+
+        semantic(gives some sense of the tag) tags:
+            header => used to create header of the page
+            nav => used to create navbar(sidebar or topbar)
+            main => used to create body of the page
+            section, div => used to create section of the page
+            footer => used to create the footer of the page
+            Technically all the above tags are same 
+     -->
+     <header>
+        this is header 
+        <nav>
+            <!-- .. look into parent folder , .look into current folder ../../ look inside parent's parent-->
+            <a href="./Home.html">Home</a>
+
+            <a href="./contactus.html">contact us</a>
+        </nav>
+     </header>
+     <main>
+       this is body of the page 
+       <section>
+            this is the body of the section 1
+       </section>
+       <section>
+            this is the body of section 2
+       </section>
+       <section>
+            this is the body of section 3
+       </section>
+
+       <div>
+            this is division 1 inside the body
+       </div>
+
+     </main>
+     <footer>
+        <h3>This is a footer tag</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit deleniti optio dolor beatae reiciendis neque velit, autem, quis quam libero illum, quo consectetur aliquam fuga temporibus! Suscipit nisi, sed quas quaerat, excepturi laborum, velit aut quis nam omnis tempore asperiores sunt necessitatibus fuga sint amet maiores neque esse recusandae? Blanditiis?</p>
+     </footer>
+
+     <!-- Adding videos onto html page 
+
+        add controls or else it will be like image
+    
+        every boolean attribute will be set to true if its added
+        if not added to the html element then it'll be set to false
+
+        ex controls,autoplay,muted,loop 
+        i.e., these are few boolean attributes added then code consider it true ifnot added it wii be like false
+    -->
+     <img src="adress i=of the image" alt="">
+     <video src="../video/Forest_Floor_1_Videvo_preview.mp4" width=300px height=400px controls autoplay muted loop >
+        <!-- we can have either weight or height  only one ,if u use both then space occurs-->
+    </video>
+
+    <br/>
+    <!-- break line seperates the code -->
+    
+    <audio src="../audio/classic-victorious-mood-141238.mp3" controls muted loop autoplay></audio>
+    <br/>
+
+    <!-- iframe needed when more webpages needed to be embeded -->
+   
+    <iframe src="./Home.html" frameborder="5" width ="500"height="500"></iframe>
+</body>
